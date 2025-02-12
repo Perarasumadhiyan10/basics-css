@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS </title>
+</head>
+
+<body background="p12.jpg">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .action {
+            list-style-type: none;
+            padding-left: 1400px;
+            border-bottom: 10px;
+            color: white;
+            top: 1100px;
+            word-spacing: 100px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 1000px;
+            top: 100px;
+            word-spacing: 10px;
+        }
+
+        .logincontainer {
+            padding: 100px;
+            margin-left: auto;
+            height: 200;
+            width: 200;
+            box-sizing: border-box;
+            border-radius: 5px;
+            margin: 5px;
+            outline-color: black;
+            margin-right: 50px;
+
+        }
+
+        form {
+            padding: 10px;
+            width: 200px;
+            background-color: white;
+
+        }
+
+        .nav-link {
+            list-style: none;
+        }
+
+        .nav-link li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        span {
+            color: aqua;
+
+        }
+
+        .logincontainer {
+            display: flex;
+            flex-direction: image;
+        }
+
+        .card {
+            padding: 0px 30px 20px 20px;
+            background: white;
+            border-bottom: 10px;
+        }
+
+        .logincontainer {
+            top: 50px;
+            left: 50px;
+            position: absolute;
+            transform: translate(50%, 50%);
+        }
+
+        .logo {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100px;
+            color: aquamarine;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            background-color: aqua;
+        }
+    </style>
+    <div class="logo">
+        <h2> CodingNepal</h2>
+    </div>
+    <div class="nav-link ">
+        <nav>
+            <ul class="nav-link">
+                <a href="#">Home </a>
+                <a href="#"> Porfolio </a>
+                <a href="#"> Courses </a>
+                <a href="#"> Aboutus </a>
+                <a href="#"> Contactus </a>
+            </ul>
+        </nav>
+        <div class="action"> <input type="button" value="   LOG IN   " style="background-color:green;"></div>
+    </div>
+    <center>
+        <div class="logincontainer">
+            <div class=" image">
+                <form action="">
+
+                    <img src="5570.jpeg" height="250" width="250">
+            </div>
+            <div class="card">
+                <h1> LOGIN </h1><br><br>
+                <input type="email" placeholder="Email" required>
+                <br><br>
+                <input type="password" placeholder="Password" required>
+                <br>
+                <span>
+                    <label for=""> Forgot password?</label>
+                </span>
+                <br><br>
+                <label for=""> </label>
+                <input type="button" value="               Login               "
+                    style="background-color:aquamarine;"><br><br>
+                <label for="">Don't have an account?<span>Signup</span></label>
+
+                </table>
+            </div>
+        </div>
+        </form>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 10px;
+        }
+
+        .one {
+            position: relative;
+            top: 0;
+            left: 100px;
+        }
+        .two {
+            position: absolute;
+            top: 0;
+            left: 100px;
+        }
+        .three {
+            position: fixed;
+            top: 0;
+            left: 100px;
+        }
+        .four {
+            position: sticky;
+            top: 0;
+            left: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box">1</div>
+    <div class="box one">2</div>
+    <div class="box two">2</div>
+    <div class="box three">2</div>
+    <div class="box four">2</div>
+    <div class="box">3</div>
+
+</body>
+
+</html>

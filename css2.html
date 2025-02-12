@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position </title>
+
+<body>
+    <style>
+        .box{
+            width: 250px;
+            height: 250px;
+            margin: 20px;
+            background-color: aqua;
+            position: relative;
+        }
+        .child{
+           margin: 10px;
+        }
+        .secound{
+            top: 0;
+            bottom: 100px;
+            left: 350px;
+            position: fixed;
+            
+            background-color: antiquewhite;
+        }
+        .three{
+            position: absolute;
+            top: 10px;
+            left: 100px;
+            background-color: aquamarine;
+            z-index: 100px;
+        }
+        .six{
+            position: sticky;
+            z-index: -1;
+            background-color: blue;
+            top: 0;
+            bottom: 100px;
+            left: 350px;
+        }
+    </style>
+    </head>
+    <div class="child">
+    <div class="box">1</div>
+    <div class="box secound">2</div>
+    <div class="box six">6</div>
+    <div class="box five">5</div>
+    <div class="box four">4</div>
+    <div class="box three">3</div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi esse possimus distinctio rem quaerat beatae. Deserunt id voluptatum saepe ipsa. Alias, odio. Cupiditate odit id pariatur assumenda quisquam atque amet!
+    </p>
+</div>
+</body>
+</html>
